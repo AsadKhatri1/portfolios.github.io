@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.h-nav{
+     opacity:0; 
+     
+    
+     /* display: hidden; */
+
+    /* position: relative;
+    top: -206px; */
+}
+/* .h-header{
+    height: 190px;
+} */
+
+body{
+    scroll-behavior: smooth;
+}
+#nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.986);
+    height:170px ;
+    transition: all 0.3s ease-in-out;
+}
+#list-item{
+    list-style: none;
+    margin: 10px;
+
+}
+#list-item a{
+    text-decoration: none;
+    font-size: 16px;
+    color:rgb(255, 255, 255);
+    padding: 5px;
+    
+}
+#list-item a:hover{
+    color: rgb(167, 167, 167);
+}
+.line{
+    background-color: rgb(255, 255, 255);
+    width: 33px;
+    height: 4px;
+    border-radius: 5px;
+    margin: 2px;
+}
+#hamburger{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+#header{
+    height: 60px;
+    background-color: black;
+
+}
+
+#home{
+    background-image: url(homebg.webp);
+    height: 350px;
+    background-repeat: no-repeat;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+width: 100%;
+
+}
+
+.content{
+    width: 60%;
+    position: relative;
+    top: 110px;
+    
+}
+
+.para{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Source Serif 4', sans-serif;
+}
+.paras{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Source Serif 4', sans-serif;
+}
+.btn1{
+    background-color: rgb(107, 107, 107);
+    color: white;
+    font-family: 'Source Serif 4', sans-serif;
+    width: 100px;
+    padding: 5px;
+    border-radius: 12px;
+    border-style: none;
+
+}
+.btn1:hover{
+    background-color: rgb(46, 45, 45);
+}
+
+#about{
+  background-image: url(aboutbg.webp) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Source Serif 4', sans-serif;
+  opacity: 0.9;
+}
+.heading{
+    text-align: center;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    padding: 5px;
+    margin: 10px;
+}
+
+.card1{
+    border: 1px dashed white;
+    width: 80%;
+    margin: 10px;
+    padding: 5px;
+height: 160px;
+color: rgb(255, 255, 255);
+
+}
+.card1 ol{
+    margin: 15px;
+}
+.card2 ul{
+    margin: 15px;
+}
+.card3 ul{
+    margin: 20px;
+}
+.card4 ul{
+    margin:10px 35px;
+}
+
+.card2{
+    border: 1px dashed white;
+    width: 80%;
+    margin: 10px;
+    
+height: 247px;
+color: rgb(255, 255, 255);
+
+}
+.card3{
+    border: 1px dashed white;
+    width: 90%;
+    margin: 10px;
+    
+height: 200px;
+color: rgb(255, 255, 255);
+
+}
+.card4{
+    border: 1px dashed white;
+    width: 90%;
+    margin: 10px;
+    
+height: 210px;
+color: rgb(255, 255, 255);
+
+}
+
+.links{
+    font-size: 14px;
+   padding: 6px;
+}
+
+.logo{
+    height: 40px;
+}
+.logo img{
+    height: 60px;
+}
+
+#service{
+    background-image: url(serbg.jpg);
+
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Source Serif 4', sans-serif;
+        opacity: 0.9;
+        margin: 10px 0;
+      
+}
+
+#contact{
+    background-color: rgb(251, 249, 241);
+    margin: 10px;
+}
+
+.heading1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+
+.card5{
+    border: 1px dashed white;
+    width: 90%;
+    margin: 10px;
+    
+height: 210px;
+color: rgb(255, 255, 255);
+
+}
+.card6{
+    border: 1px dashed white;
+    width: 90%;
+    margin: 10px;
+    
+height: 210px;
+color: rgb(255, 255, 255);
+
+}
+.card7{
+    border: 1px dashed white;
+    width: 90%;
+    margin: 10px;
+    
+height: 210px;
+color: rgb(255, 255, 255);
+
+}
+
+#footer{
+    background-color: rgb(29, 29, 29);
+}
+.para{
+    text-align: center;
+}
